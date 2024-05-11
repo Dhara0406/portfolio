@@ -29,11 +29,11 @@
             <h3>And I'm a <span >Web Developer </span></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur assumenda modi omnis at aliquam. Ut tenetur vero sed reiciendis, facere accusantium, nostrum deserunt architecto recusandae aspernatur reprehenderit molestiae iste dolore?</p>
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-code"></i></a>
+                <a href="https://www.linkedin.com/in/dhara-tukadiya"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/_dhara_._07/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://leetcode.com/u/Dhara2354/"><i class="fa-solid fa-code"></i></a>
             </div>
-            <a href="" class="btn">Download Resume</a>
+            <a href="Uploadit.pdf" download class="btn">Download Resume</a>
         </div>
 
         <div class="home-img">
@@ -122,20 +122,26 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1941cd24-b9f9-4607-8e8f-73985bf7db96">
+ 
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <!-- <input type="text" placeholder="first_name"> -->
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email"placeholder="Email Address">
             </div>
+            
 
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
+        
 
         </form>
+        
     </section>
 
     <footer class="footer">
