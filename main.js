@@ -32,14 +32,14 @@ window.onscroll=()=>{
    
 }
 
-const typed=new Typed('.multiple-text',{
-    strings:['Frontend Developer','Web Developer','Youtuber'],
-    typeSpeed:70,
-    backSpeed:70,
-    backDelay:1000,
-    loop:true,
+// const typed=new Typed('.multiple-text',{
+//     strings:['Frontend Developer','Web Developer','Youtuber'],
+//     typeSpeed:70,
+//     backSpeed:70,
+//     backDelay:1000,
+//     loop:true,
    
-});
+// });
 
 
 
